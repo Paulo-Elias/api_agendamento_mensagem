@@ -1,0 +1,15 @@
+(1) POST: Agendamento de comunicação
+Body:
+DataHoraEnvio:
+EmailDestinatario:
+TelefoneDestinatario:
+Mensagem:
+StatusAgendamentoEnum -	AGENDADO, ENVIADO, CANCELADO
+
+(2) GET: Consultar Status do agendamento por ID - do agendamento
+
+(3) DELETE: Alterar o estato do agendamento para cancelar
+
+README- Instruções
+DOCKER
+TESTE UNITÁRIOS
